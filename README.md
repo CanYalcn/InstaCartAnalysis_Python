@@ -71,44 +71,31 @@ are relevant to the products I order regularly.”
 Note: Instacart is a real company that’s made their data available online. However, the contents of this project brief
 have been fabricated for the purpose of this Achievement.
 
-Data
-● orders
+**Tools**
 
-● orders_products_prior
+The data was analyzed using Python and the following supporting libraries:
+Pandas: for data analysis
+Numpy: for mathematical equations
+Seaborn: for data visualizations
+Matplotlib: for data visualizations
+SciPy: for mathematical equations
 
-● products
+**Folders**
 
-● customers
+The project files are stored in following folder structure:
+01 Project Management: Project brief
+02 Data: Separated into two subfolders Original Data which contain the original data frames and Prepared Data contain the data frames after they have been cleaned and prepared for analysis. (Data files not uploaded to GitHub due to size limitations.)
+03 Scripts: Jupyter notebooks containing coding for the analysis.
+04 Analysis: The Visualizations subfolder contains the visualizations used for developing and explaining insights.
+05 Sent to Client: The final report presented in Excel
 
-● departments
+**Resources**
+CareerFoundry Data Sets:
+Customers Data Set
 
-The customer dataset and column 'prices' were added to the original data set for learning purposes of the Career Foundry course.
-
-Tools
-The data was analyzed using Python and the following libraries:
-
-● Pandas: for data analysis
-
-● Numpy: for mathematical equations
-
-● Seaborn: for data visualizations
-
-● Matplotlib: for data visualizations
-
-● SciPy: for mathematical equations
-
-Folders
-The project files are divided between the following folders:
-
-● 01 Project Management: Project Brief & Data Dictionary.
-
-● 02 Data: Separated into two subfolders Original and Prepared Data. These contain the original data frames and the data frames after they have been cleaned and prepared for analysis respectively. (Data files not uploaded to GitHub due to size.)
-
-● 03 Scripts: The Jupyter notebooks containing the coding for the analysis.
-
-● 04 Analysis: Separated into two subfolders Reports and Visualizations. The Reports subfolder contains crosstabs and the Visualizations subfolder contains the visualizations used for developing and explaining insights.
-
-● 05 Sent to Client: The final report presented in Excel
-
-Resources
+Instacart Data Sets:
+● Data Dictionary
+● Citation (required in your final report): “The Instacart Online Grocery Shopping
+Dataset 2017”, Accessed from www.instacart.com/datasets/grocery-shopping-2017
+via Kaggle on <date>.
 Note: Instacart is a real company that’s made their data available online. However, the contents of the attached project brief have been fabricated by CareerFoundry for the purpose of this analysis.
