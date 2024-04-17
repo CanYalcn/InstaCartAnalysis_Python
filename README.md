@@ -71,75 +71,44 @@ are relevant to the products I order regularly.”
 Note: Instacart is a real company that’s made their data available online. However, the contents of this project brief
 have been fabricated for the purpose of this Achievement.
 
-**Data**
+Data
+● orders
 
-Throughout this Achievement, you’ll be using a number of open-source data sets from
-Instacart. You’ll also receive a customer data set (created and included for the purpose of
-this project), on which you’ll apply what you’ve learned to address the project’s key
-questions. While each data set contains a different kind of information, they all include some
-kind of common identifier.
-The project data you’ll need is linked for reference below. However, you’ll receive links to
-each data set in the Exercise content, as well.
-CareerFoundry Data Sets:
-● Customers Data Set
-Instacart Data Sets:
-● Data Dictionary
-● Citation (required in your final report): “The Instacart Online Grocery Shopping
-Dataset 2017”, Accessed from www.instacart.com/datasets/grocery-shopping-2017
-via Kaggle on <date>.
-Note: Instacart is a real company that’s made their data available online. However, the contents of this project brief
-have been fabricated for the purpose of this Achievement.
-Page 3
-Analysis Criteria
-● Project folder follows industry standards in terms of structure and naming
-conventions.
-● Analysis has been conducted using Jupyter notebooks and the Anaconda libraries
-manager.
-● Analysis has been conducted using Python and relevant libraries (pandas, NumPy, os,
-matplotlib, scipy, and seaborn).
-● All required libraries have been successfully installed and imported into each script.
-● Python scripts are clean and easy to follow with headings and contents lists.
-● All code is consistent (e.g., with the use of quotation marks and spaces) and includes
-descriptive comments.
-● All required data sets have been successfully installed and imported into each script.
-● Descriptive checks have been conducted after importation of data, such as checking
-the top and the bottom of the dataframe.
-● Whenever a dataframe is altered, checks have been conducted to determine its
-shape and basic statistics.
-● All project data has been merged into a single data set. A frequency of the merge flag
-shows the merged data set is a 100% match to the combined original data sets.
-● Merged data set only contains variables to be used in the analysis.
-● All column names are self-explanatory.
-● All identifier variables follow the industry standard data type.
-● Data has been cleaned. Duplicate data, missing data, and mixed-type columns have
-been checked and addressed.
-● Samples have been exported whenever an exclusions flag has been created.
-● All subsamples have been exported and saved in the proper folder following a
-consistent naming convention.
-● Any new columns that have been derived are relevant to the needs of the analysis.
-● At least 4 types of data visualizations have been generated to communicate insights
-to stakeholders. Visualizations are clearly labeled.
-● Data ethics have been kept in mind when dealing with data, especially in regards to
-customer information.
-● Final report includes evidence of analysis methodology, clear answers to the
-questions in this brief, and recommendations for Instacart stakeholders.
-● Final report contains data citation for Instacart and customer data sets.
-Note: Instacart is a real company that’s made their data available online. However, the contents of this project brief
-have been fabricated for the purpose of this Achievement.
-Page 4
-**Terminology**
-In analytics, a single procedure or concept can often be called a variety of different things.
-We’ve aimed to be consistent with the terminology used throughout this Achievement. Even
-so, there are a few variations that come up again and again when conducting an analysis in
-Python. We’ve included a list below to help you navigate this terminology:
-● script = notebook
-● variable = column = characteristic
-● observation = entry
-● dataset = dataframe = df
-● read = import
-● run = execute
-● write = export = save
-● derive a variable = create a column
-● filter = subset
-● merge flag = match flag
-● key column = identifier column
+● orders_products_prior
+
+● products
+
+● customers
+
+● departments
+
+The customer dataset and column 'prices' were added to the original data set for learning purposes of the Career Foundry course.
+
+Tools
+The data was analyzed using Python and the following libraries:
+
+● Pandas: for data analysis
+
+● Numpy: for mathematical equations
+
+● Seaborn: for data visualizations
+
+● Matplotlib: for data visualizations
+
+● SciPy: for mathematical equations
+
+Folders
+The project files are divided between the following folders:
+
+● 01 Project Management: Project Brief & Data Dictionary.
+
+● 02 Data: Separated into two subfolders Original and Prepared Data. These contain the original data frames and the data frames after they have been cleaned and prepared for analysis respectively. (Data files not uploaded to GitHub due to size.)
+
+● 03 Scripts: The Jupyter notebooks containing the coding for the analysis.
+
+● 04 Analysis: Separated into two subfolders Reports and Visualizations. The Reports subfolder contains crosstabs and the Visualizations subfolder contains the visualizations used for developing and explaining insights.
+
+● 05 Sent to Client: The final report presented in Excel
+
+Resources
+Note: Instacart is a real company that’s made their data available online. However, the contents of the attached project brief have been fabricated by CareerFoundry for the purpose of this analysis.
